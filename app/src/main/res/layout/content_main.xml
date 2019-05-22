@@ -48,14 +48,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="304dp"
         android:allowUndo="true"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -63,13 +63,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="650dp"
-        android:layout_marginEnd="104dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541" />
+        tools:layout_editor_absoluteX="86dp" />
 
     <Switch
         android:id="@+id/Siguiente"
